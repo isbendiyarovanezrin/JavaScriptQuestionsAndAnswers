@@ -1,12 +1,12 @@
 <div align="center">
   <img width="50" src="https://i.postimg.cc/h4dzTwG8/javascript.png">
 
-## **JavaScript Interview Questions and Answers**
+### **JavaScript Interview Questions and Answers**
 
 </div>
 <br>
 
-1. ### **What is the difference between == and === operators?**
+1. #### **What is the difference between == and === operators?**
 
    "==" operatoruna bərabərlik operatoru deyilir. Dəyişənlərin data tiplərini nəzərə almadan iki dəyişəni müqayisə etmək üçün istifadə edilir və boolean dəyər (true və ya false) qaytarır. Əgər dəyişənlərin dəyəri eynidirsə true qaytarır, deyilsə false qaytarır. <br>
    "===" operatoruna isə qatı bərabərlik operatoru deyilir və "==" operatorundan fərqli olaraq iki dəyişənin həm dəyərini müqayisə edir, həm də data tiplərini yoxlayır. Əgər hər ikisi də eynidirsə true qaytarır, deyilsə false qaytarır. <br>
