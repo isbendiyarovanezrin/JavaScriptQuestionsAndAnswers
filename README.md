@@ -32,9 +32,11 @@
    NaN === NaN; // false
    ```
 
+<br>
+
 2. #### **What is null value?**
 
-   Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv məlumat tipidir və typeof operatorundan istifadə edəndə object döndürür. <br>
+   Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv data növüdür və typeof operatorundan istifadə edəndə object qaytarır. <br>
 
    _Nümunə:_
 
@@ -42,4 +44,18 @@
    let test = null;
    alert(test); // null
    alert(typeof test); // object
+   ```
+
+<br>
+
+3. #### **What is undefined property?**
+
+   Undefined dəyişənin olduğunu, lakin dəyər təyin edilmədiyini bildirən primitiv data növüdür və typeof operatorundan istifadə edəndə undefined qaytarır. <br>
+
+   _Nümunə:_
+
+   ```js
+   let test;
+   alert(test); // undefined
+   alert(typeof test); // undefined
    ```
