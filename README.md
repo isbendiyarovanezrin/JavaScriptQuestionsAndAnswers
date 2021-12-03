@@ -59,3 +59,27 @@
    alert(test); // undefined
    alert(typeof test); // undefined
    ```
+
+<br>
+
+4. #### **What is isNaN?**
+
+   JavaScriptdə isNaN() metodu dəyərin rəqəm olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot **a** **N**umber) olarsa (yəni rəqəm olmazsa), bu zaman true qaytarır, əks halda false qaytarır. <br>
+
+   _Nümunə:_
+
+   ```js
+   isNaN(20); // false
+   isNaN("20"); // false
+   isNaN("20.55"); // false
+   isNaN("20,55"); // true
+   isNaN("text"); // true
+   isNaN(""); // false
+   isNaN(" "); // false
+   isNaN(null); // false
+   isNaN(undefined); // true
+   isNaN(NaN); // true
+   isNaN(true); // false
+   isNaN({}); // true
+   isNaN(new Date()); // false
+   ```
