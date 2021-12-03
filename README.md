@@ -32,4 +32,14 @@
    NaN === NaN; // false
    ```
 
-   </div>
+2. #### **What is null value?**
+
+   Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv məlumat tipidir və typeof operatorundan istifadə edəndə object döndürür. <br>
+
+   _Nümunə:_
+
+   ```js
+   let test = null;
+   alert(test); // null
+   alert(typeof test); // object
+   ```
