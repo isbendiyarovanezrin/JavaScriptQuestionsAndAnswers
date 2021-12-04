@@ -181,3 +181,39 @@
    |    <<    |          Left shift          |   a << b   |
    |    >>    | Sign-propagating right shift |   a >> b   |
    |   >>>    |    Zero-fill right shift     |  a >>> b   |
+
+<br>
+
+10. ### **What is the use of setTimeout?**
+
+    JavaScriptdə setTimeout() metodundan funksiyanı çağırmaq və müəyyən edilmiş vaxtdan sonra yalnız bir dəfə yerinə yetirmək üçün istifadə olunur. Əgər icranı təkrarlamaq lazımdırsa, bu zaman setInterval() metodundan istifadə etmək lazımdır.
+
+    _Nümunə:_
+
+    ```js
+    function sayHello() {
+      alert("Hello!");
+    }
+
+    setTimeout(sayHello, 5000);
+    ```
+
+    Bu o deməkdir ki, sayHello() metodu 5 saniyədən (5000 millisaniyə) sonra işə düşəcək, yəni bir dəfə 5 saniyədən sonra ekranda "Hello!" yazısı görünəcək.
+
+<br>
+
+11. ### **What is the use of setInterval?**
+
+    JavaScriptdə setInterval() metodundan funksiyanı çağırmaq və müəyyən edilmiş vaxt ərzində davamlı şəkildə yerinə yetirmək üçün istifadə olunur. SetInterval() metodu setTimeout() metodu ilə eyni yazılışa sahibdir, lakin ondan tək fərqi müəyyən edilmiş vaxt ərzində yalnız bir dəfə yox, davamlı şəkildə işləyir. Bu metod clearInterval() metodu çağırılana qədər və ya pəncərə (windows) bağlanana qədər davam edir.
+
+    _Nümunə:_
+
+    ```js
+    function sayHello() {
+      alert("Hello!");
+    }
+
+    setInterval(sayHello, 5000);
+    ```
+
+    Bu o deməkdir ki, sayHello() metodu hər 5 saniyədən (5000 millisaniyə) bir işə düşəcək, yəni hər 5 saniyədən bir ekranda "Hello!" yazısı görünəcək.
