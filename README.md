@@ -64,7 +64,7 @@
 
 4. #### **What is isNaN?**
 
-   JavaScriptdə isNaN() metodu dəyərin rəqəm olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot **a** **N**umber) olarsa (yəni rəqəm olmazsa), bu zaman true qaytarır, əks halda false qaytarır. <br>
+   JavaScriptdə isNaN() metodu dəyərin ədəd olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot-**a**-**N**umber) olarsa (yəni ədəd olmazsa), bu zaman true qaytarır, əks halda false qaytarır. <br>
 
    _Nümunə:_
 
@@ -126,3 +126,58 @@
    // function
    typeof function () {}; // 'function'
    ```
+
+<br>
+
+6. ### **Who created JavaScript?**
+   JavaScript ilk dəfə **1995**-ci ildə **Brendan Eich** tərəfindən **Netscape Navigator 2.0** ilə birlikdə buraxılmışdır. İlk olaraq **Mocha** adı verildi, daha sonra **LiveScript** və ən sonda isə **JavaScript** adını aldı.
+
+<br>
+
+7. ### **What are primitive data types?**
+
+   JavaScriptdə primitiv data növləri metodları və xüsusiyyətləri (properties) olmayan datadır. 7 primitiv data növü var. <br>
+
+- number
+- bigint
+- undefined
+- null
+- string
+- symbol
+- boolean
+
+<br>
+
+8. ### **What is NaN property?**
+
+   NaN "**N**ot-**a**-**N**umber" (ədəd olmayan) dəyərləri təmsil edən qlobal xüsusiyyətdir. NaN xüsusiyyətindən daxil edilmiş nömrələrin etibarlı olub-olmamasını yoxlamaq üçün istifadə edilə bilər. <br>
+
+   _Nümunə:_
+
+   ```js
+   parseInt("text"); // NaN
+   Number(undefined); // NaN
+   Math.sqrt(-1); // NaN
+   5 + NaN; // NaN
+   0 * Infinity; // NaN
+   undefined + undefined; // NaN
+   "text" / 5; // NaN
+   "text" * 5; // NaN
+   "text" - 5; // NaN
+   ```
+
+   <br>
+
+9. ### **What are the bitwise operators available in JavaScript?**
+
+   Bitwise operatorları aşağıdakılardır:
+
+   | Operator |             Name             |  Example   |
+   | :------: | :--------------------------: | :--------: |
+   |    &     |         Bitwise AND          |   a & b    |
+   |  &#124;  |          Bitwise OR          | a &#124; b |
+   |    ^     |         Bitwise XOR          |   a ^ b    |
+   |    ~     |         Bitwise NOT          |    ~ a     |
+   |    <<    |          Left shift          |   a << b   |
+   |    >>    | Sign-propagating right shift |   a >> b   |
+   |   >>>    |    Zero-fill right shift     |  a >>> b   |
