@@ -129,12 +129,12 @@
 
 <br>
 
-6. ### **Who created JavaScript?**
+6. #### **Who created JavaScript?**
    JavaScript ilk dəfə **1995**-ci ildə **Brendan Eich** tərəfindən **Netscape Navigator 2.0** ilə birlikdə buraxılmışdır. İlk olaraq **Mocha** adı verildi, daha sonra **LiveScript** və ən sonda isə **JavaScript** adını aldı.
 
 <br>
 
-7. ### **What are primitive data types?**
+7. #### **What are primitive data types?**
 
    JavaScriptdə primitiv data növləri metodları və xüsusiyyətləri (properties) olmayan datadır. 7 primitiv data növü var. <br>
 
@@ -148,7 +148,7 @@
 
 <br>
 
-8. ### **What is NaN property?**
+8. #### **What is NaN property?**
 
    NaN "**N**ot-**a**-**N**umber" (ədəd olmayan) dəyərləri təmsil edən qlobal xüsusiyyətdir. NaN xüsusiyyətindən daxil edilmiş nömrələrin etibarlı olub-olmamasını yoxlamaq üçün istifadə edilə bilər. <br>
 
@@ -168,7 +168,7 @@
 
    <br>
 
-9. ### **What are the bitwise operators available in JavaScript?**
+9. #### **What are the bitwise operators available in JavaScript?**
 
    Bitwise operatorları aşağıdakılardır:
 
@@ -184,7 +184,7 @@
 
 <br>
 
-10. ### **What is the use of setTimeout?**
+10. #### **What is the use of setTimeout?**
 
     JavaScriptdə setTimeout() metodundan funksiyanı çağırmaq və müəyyən edilmiş vaxtdan sonra yalnız bir dəfə yerinə yetirmək üçün istifadə olunur. Əgər icranı təkrarlamaq lazımdırsa, bu zaman setInterval() metodundan istifadə etmək lazımdır.
 
@@ -202,7 +202,7 @@
 
 <br>
 
-11. ### **What is the use of setInterval?**
+11. #### **What is the use of setInterval?**
 
     JavaScriptdə setInterval() metodundan funksiyanı çağırmaq və müəyyən edilmiş vaxt ərzində davamlı şəkildə yerinə yetirmək üçün istifadə olunur. SetInterval() metodu setTimeout() metodu ilə eyni yazılışa sahibdir, lakin ondan tək fərqi müəyyən edilmiş vaxt ərzində yalnız bir dəfə yox, davamlı şəkildə işləyir. Bu metod clearInterval() metodu çağırılana qədər və ya pəncərə (windows) bağlanana qədər davam edir.
 
