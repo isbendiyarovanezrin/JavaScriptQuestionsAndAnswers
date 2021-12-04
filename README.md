@@ -83,3 +83,46 @@
    isNaN({}); // true
    isNaN(new Date()); // false
    ```
+
+<br>
+
+5. #### **What is the typeof operator?**
+
+   JavaScriptdə typeof operatorundan dəyişənlərin data tipini tapmaq üçün istifadə olunur. <br>
+
+   _Nümunə:_
+
+   ```js
+   // numbers
+   typeof 55; // 'number'
+   typeof 55.12; // 'number'
+   typeof Infinity; // 'number'
+   typeof NaN; // 'number'
+   typeof Number("5"); // 'number'
+   typeof Number("paper"); // 'number'
+
+   typeof 55n; // 'bigint'
+
+   // strings
+   typeof ""; // 'string'
+   typeof "3"; // 'string'
+   typeof "text"; // 'string'
+   typeof `string text`; // 'string'
+   typeof typeof 5; // 'string'
+
+   // booleans
+   typeof true; // 'boolean'
+   typeof false; // 'boolean'
+
+   // undefined
+   typeof undefined; // 'undefined'
+
+   // objects
+   typeof null; // 'object'
+   typeof { name: "Samir" }; // 'object'
+   typeof [5, 55, 12]; // 'object'
+   typeof new Date(); // 'object'
+
+   // function
+   typeof function () {}; // 'function'
+   ```
