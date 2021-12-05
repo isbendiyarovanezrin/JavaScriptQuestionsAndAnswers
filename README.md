@@ -34,7 +34,7 @@
 
 <br>
 
-2. #### **What is null value?**
+2. ### **What is null value?**
 
    Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv data növüdür və typeof operatorundan istifadə edəndə object qaytarır. <br>
 
@@ -48,7 +48,7 @@
 
 <br>
 
-3. #### **What is undefined property?**
+3. ### **What is undefined property?**
 
    Undefined dəyişənin olduğunu, lakin dəyər təyin edilmədiyini bildirən primitiv data növüdür və typeof operatorundan istifadə edəndə undefined qaytarır. <br>
 
@@ -62,7 +62,7 @@
 
 <br>
 
-4. #### **What is isNaN?**
+4. ### **What is isNaN?**
 
    JavaScriptdə isNaN() metodu dəyərin ədəd olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot-**a**-**N**umber) olarsa (yəni ədəd olmazsa), bu zaman true qaytarır, əks halda false qaytarır. <br>
 
@@ -86,7 +86,7 @@
 
 <br>
 
-5. #### **What is the typeof operator?**
+5. ### **What is the typeof operator?**
 
    JavaScriptdə typeof operatorundan dəyişənlərin data tipini tapmaq üçün istifadə olunur. <br>
 
@@ -129,12 +129,12 @@
 
 <br>
 
-6. #### **Who created JavaScript?**
+6. ### **Who created JavaScript?**
    JavaScript ilk dəfə **1995**-ci ildə **Brendan Eich** tərəfindən **Netscape Navigator 2.0** ilə birlikdə buraxılmışdır. İlk olaraq **Mocha** adı verildi, daha sonra **LiveScript** və ən sonda isə **JavaScript** adını aldı.
 
 <br>
 
-7. #### **What are primitive data types?**
+7. ### **What are primitive data types?**
 
    JavaScriptdə primitiv data növləri metodları və xüsusiyyətləri (properties) olmayan datadır. 7 primitiv data növü var. <br>
 
@@ -148,7 +148,7 @@
 
 <br>
 
-8. #### **What is NaN property?**
+8. ### **What is NaN property?**
 
    NaN "**N**ot-**a**-**N**umber" (ədəd olmayan) dəyərləri təmsil edən qlobal xüsusiyyətdir. NaN xüsusiyyətindən daxil edilmiş nömrələrin etibarlı olub-olmamasını yoxlamaq üçün istifadə edilə bilər. <br>
 
@@ -168,7 +168,7 @@
 
    <br>
 
-9. #### **What are the bitwise operators available in JavaScript?**
+9. ### **What are the bitwise operators available in JavaScript?**
 
    Bitwise operatorları aşağıdakılardır:
 
@@ -184,7 +184,7 @@
 
 <br>
 
-10. #### **What is the use of setTimeout?**
+10. ### **What is the use of setTimeout?**
 
     JavaScriptdə setTimeout() metodundan funksiyanı çağırmaq və müəyyən edilmiş vaxtdan sonra yalnız bir dəfə yerinə yetirmək üçün istifadə olunur. Əgər icranı təkrarlamaq lazımdırsa, bu zaman setInterval() metodundan istifadə etmək lazımdır.
 
@@ -202,7 +202,7 @@
 
 <br>
 
-11. #### **What is the use of setInterval?**
+11. ### **What is the use of setInterval?**
 
     JavaScriptdə setInterval() metodundan funksiyanı çağırmaq və müəyyən edilmiş vaxt ərzində davamlı şəkildə yerinə yetirmək üçün istifadə olunur. SetInterval() metodu setTimeout() metodu ilə eyni yazılışa sahibdir, lakin ondan tək fərqi müəyyən edilmiş vaxt ərzində yalnız bir dəfə yox, davamlı şəkildə işləyir. Bu metod clearInterval() metodu çağırılana qədər və ya pəncərə (windows) bağlanana qədər davam edir.
 
@@ -220,5 +220,17 @@
 
 <br>
 
-12. #### **What would be the result of 1+2+'3'?**
+12. ### **What would be the result of 1+2+'3'?**
     Cavab 33-dür, çünki ilk iki dəyər ədəddir və ona görə də birinci 1 və 2 toplanacaq (3+'3'). Ondan sonrakı dəyər isə string'dir və string olduğu üçün də dəyərlər birləşəcək və cavab 33 olacaq.
+
+<br>
+
+13. ### **What is the difference between internal and external JavaScript?**
+
+    Internal (daxili) JavaScript HTML-də `<script></script>` teqinin içində yazılır. External (xarici) JavaScriptdə isə JavaScript kodları ayrıca ".js" uzantılı faylın içində yazılır və HTML-də bu kod ilə çağırılır `<script src="filename.js"></script>`.
+
+<br>
+
+14. ### **What paradigm is JavaScript?**
+
+    JavaScript **funksional (functional)**, **obyekt yönümlü (object-oriented)**, **prosessual/imperativ (procedural/imperative)** və **prototip (prototypal)** proqramlaşdırmanı dəstəkləyən **çoxparadiqmalı (multi-paradigm)** dildir.
