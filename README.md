@@ -313,6 +313,8 @@
 
     _Nümunə:_
 
+    Buttona klik edəndə portfolio saytıma gedəcək.
+
     _Birinci yol:_
 
     ```html
@@ -321,7 +323,7 @@
 
     ```js
     function myFunction() {
-      window.location.href = "https://isbendiyarovanezrin.herokuapp.com"; // klik edəndə portfolio saytıma gedəcək
+      window.location.href = "https://isbendiyarovanezrin.herokuapp.com";
     }
     ```
 
@@ -333,6 +335,6 @@
 
     ```js
     function myFunction() {
-      location.replace("https://isbendiyarovanezrin.herokuapp.com"); // klik edəndə portfolio saytıma gedəcək
+      location.replace("https://isbendiyarovanezrin.herokuapp.com");
     }
     ```
