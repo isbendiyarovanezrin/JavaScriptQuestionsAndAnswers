@@ -338,3 +338,15 @@
       location.replace("https://isbendiyarovanezrin.herokuapp.com");
     }
     ```
+
+<br>
+
+21. ### **How do you get the current url with JavaScript?**
+
+    JavaScriptdə cari URL adresini almaq üçün `window.location.href` xüsusiyyətindən istifadə olunur.
+
+    _Nümunə:_
+
+    ```js
+    console.log(window.location.href); // cari URL adresini qaytarır
+    ```
