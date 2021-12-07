@@ -357,9 +357,9 @@
 
     Bunu JavaScript string `startsWith()` metodu ilə etmək olar. `StartsWith()` metodu stringin təyin edilmiş string ilə başlayıb başlamadığını müəyyən edir və boolean (true və ya false) dəyər qaytarır. Əgər string təyin edilmiş string ilə başlayırsa true qaytarır, əks halda false qaytarır.
 
-    Sintaksisi bu şəkildədir:
-    `string.startsWith(axtarılan string)`
-    `string.startsWith(axtarılan string, mövqe)`
+    Sintaksisi bu şəkildədir: <br>
+    `string.startsWith(axtarılan string)` <br>
+    `string.startsWith(axtarılan string, mövqe)` <br>
 
     _Nümunə:_
 
