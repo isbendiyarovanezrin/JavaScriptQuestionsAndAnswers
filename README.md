@@ -252,7 +252,7 @@
 16. ### **What are the syntax rules of JSON?**
     JSON-un aşağıdakı sintaksis qaydaları var:
 
-- Verilənlər açar (key) və dəyər (value) cütlərindən ibarət olur. Sol tərəfdəki məlumatlar açarı, sağ tərəfdəki məlumatlar isə dəyəri təmsil edir (hər ikisi qoşa dırnaq içində yazılır) və bir-birilərindən ":" (iki nöqtə) işarəsi ilə ayrılırlar.
+- Verilənlər açar (key) və dəyər (value) cütlərindən ibarət olur. Sol tərəfdəki məlumatlar açarı, sağ tərəfdəki məlumatlar isə dəyəri təmsil edir (hər ikisi qoşa dırnaq içində yazılır) və bir-birlərindən ":" (iki nöqtə) işarəsi ilə ayrılırlar.
 - Ad/dəyər (name/value) cütləri bir-birindən vergüllə ayrılır.
 - Bəzəkli mötərizələr ({}) obyektləri saxlayır.
 - Kvadrat mötərizələr ([]) arrayları saxlayır.
@@ -306,3 +306,33 @@
     `myJSON` indi stringdir və serverə göndərilməyə hazırdır.
 
 <br>
+
+20. ### **How do you redirect new page in JavaScript?**
+
+    JavaScript ilə başqa səhifəyə redirect etməyin bir neçə yolu var. Bunlardan ən məşhur olanları window obyektinin `location.href` xüsusiyyəti və `location.replace` metodudur.
+
+    _Nümunə:_
+
+    _Birinci yol:_
+
+    ```html
+    <button onclick="myFunction()">Go website</button>
+    ```
+
+    ```js
+    function myFunction() {
+      window.location.href = "https://isbendiyarovanezrin.herokuapp.com"; // klik edəndə portfolio saytıma gedəcək
+    }
+    ```
+
+    _İkinci yol:_
+
+    ```html
+    <button onclick="myFunction()">Go website</button>
+    ```
+
+    ```js
+    function myFunction() {
+      location.replace("https://isbendiyarovanezrin.herokuapp.com"); // klik edəndə portfolio saytıma gedəcək
+    }
+    ```
