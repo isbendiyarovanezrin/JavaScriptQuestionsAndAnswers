@@ -234,3 +234,75 @@
 14. ### **What paradigm is JavaScript?**
 
     JavaScript **funksional (functional)**, **obyekt yönümlü (object-oriented)**, **prosessual/imperativ (procedural/imperative)** və **prototip (prototypal)** proqramlaşdırmanı dəstəkləyən **çoxparadiqmalı (multi-paradigm)** dildir.
+
+<br>
+
+15. ### **What is JSON?**
+
+    JSON (**J**ava**S**cript **O**bject **N**otation) dataları (çox böyük olmayan) depolamaq və dəyişdirmək üçün istifadə olunan JavaScript obyekt məntiqinə əsaslanan mətn əsaslı formatdır. Məsələn, JSON-dan istifadə edərək serverdən alınan JSON-ları JavaScript obyektinə çevirə bilərsiniz və ya hər hansısa bir JavaScript obyektini JSON-a çevirib serverə göndərə bilərsiniz. Fayl genişləməsi **".json"**-dur. JSON-da verilənlər açar (key) və dəyərlərdən (value) ibarət olur.
+
+    _Nümunə:_
+
+    ```json
+    { "ad": "Samir", "soyad": "Karimov" }
+    ```
+
+<br>
+
+16. ### **What are the syntax rules of JSON?**
+    JSON-un aşağıdakı sintaksis qaydaları var:
+
+- Verilənlər açar (key) və dəyər (value) cütlərindən ibarət olur. Sol tərəfdəki məlumatlar açarı, sağ tərəfdəki məlumatlar isə dəyəri təmsil edir (hər ikisi qoşa dırnaq içində yazılır) və bir-birilərindən ":" (iki nöqtə) işarəsi ilə ayrılırlar.
+- Ad/dəyər (name/value) cütləri bir-birindən vergüllə ayrılır.
+- Bəzəkli mötərizələr ({}) obyektləri saxlayır.
+- Kvadrat mötərizələr ([]) arrayları saxlayır.
+
+<br>
+
+17. ### **Why do you need JSON?**
+    Serverlə brauzer arasında olan məlumat mübadiləsi yalnız mətn ola bilər. JSON da yalnız mətn olduğundan serverə və ya serverdən asanlıqla göndərilə bilər və bütün proqramlaşdırma dilləri tərəfindən data formatı kimi istifadə oluna bilər.
+
+<br>
+
+18. ### **How do you parse JSON string?**
+
+    JSON-un ümumi istifadəsi serverə və ya serverdən data mübadiləsi etməkdir və serverdən məlumat qəbul edərkən data həmişə string formatda olmalıdır. **JSON.parse()** metodu ilə aşağıdakı string dəyərini JavaScript obyektinə çevirə bilərsiniz.
+
+    _Nümunə:_
+
+    ```js
+    const str = '{"name":"Orkhan", "surname":"Shahbaz", "age":38}';
+    const obj = JSON.parse(str);
+    console.log(obj); // { name: 'Orkhan', surname: 'Shahbaz', age: 38 }
+    ```
+
+    Burada obyekt əvəzinə massivə çevirəcək.
+
+    ```js
+    const text = '["alma", "armud", "banan", "nar"]';
+    const arr = JSON.parse(text);
+    console.log(arr); // [ 'alma', 'armud', 'banan', 'nar' ]
+    ```
+
+<br>
+
+19. ### **What is the purpose JSON stringify?**
+
+    JSON-un ümumi istifadəsi serverə və ya serverdən data mübadiləsi etməkdir və serverə məlumat göndərərkən data həmişə string formatda olmalıdır. **JSON.stringify()** metodu ilə JavaScript obyektini string formatına çevirə bilərsiniz.
+
+    _Nümunə:_
+
+    ```js
+    const obj = {
+      name: "Orkhan",
+      surname: "Shahbaz",
+      age: 29,
+    };
+
+    const myJSON = JSON.stringify(obj);
+    console.log(myJSON); // {"name":"Orkhan","surname":"Shahbaz","age":29}
+    ```
+
+    `myJSON` indi stringdir və serverə göndərilməyə hazırdır.
+
+<br>
