@@ -350,3 +350,35 @@
     ```js
     console.log(window.location.href); // cari URL adresini qaytarır
     ```
+
+<br>
+
+22. ### **How do you check if a string starts with another string?**
+
+    Bunu JavaScript string `startsWith()` metodu ilə etmək olar. `StartsWith()` metodu stringin təyin edilmiş string ilə başlayıb başlamadığını müəyyən edir və boolean (true və ya false) dəyər qaytarır. Əgər string təyin edilmiş string ilə başlayırsa true qaytarır, əks halda false qaytarır.
+
+    Sintaksisi bu şəkildədir:
+    `string.startsWith(axtarılan string)`
+    `string.startsWith(axtarılan string, mövqe)`
+
+    _Nümunə:_
+
+    ```js
+    let text = "Samir müəllim mükəmməldir!";
+    let result = text.startsWith("Samir"); // və ya ("Samir", 0)
+    console.log(result); // true qaytaracaq
+    ```
+
+    ```js
+    let text = "Samir müəllim mükəmməldir!";
+    let result = text.startsWith("mir", 2);
+    console.log(result); // true qaytaracaq
+    ```
+
+    Bu metod böyük, kiçik hərflərə qarşı həssasdır. Başdakı "s" hərfini kiçik yazdığım üçün false qaytaracaq.
+
+    ```js
+    let text = "Samir müəllim mükəmməldir!";
+    let result = text.startsWith("samir");
+    console.log(result); // false qaytaracaq
+    ```
