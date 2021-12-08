@@ -385,3 +385,8 @@
     let result = text.startsWith("samir");
     console.log(result); // false qaytaracaq
     ```
+
+<br>
+
+23. ### **What is a polyfill?**
+    Polyfill yazdığımız kodları dəstəkləməyən köhnə brauzerlərdə müasir funksionallığı təmin üçün istifadə edilən kod parçasıdır.
