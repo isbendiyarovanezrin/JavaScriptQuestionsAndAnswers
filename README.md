@@ -489,3 +489,19 @@
     ```
 
 <br>
+
+27. ### **How do you detect JavaScript disabled in the page?**
+
+    JavaScriptin deaktiv olub-olmadığını aşkar etmək üçün `<noscript>` teqindən istifadə olunur. Bu teq skriptləri dəstəkləməyən və ya skriptləri söndürülmüş brauzerləri olan istifadəçilərə göstəriləcək alternativ məzmunu müəyyən edir. Aşağıda `<noscript>` teqinin içindəki kod bloku JavaScript söndürüləndə icra olunacaq.
+
+    _Nümunə:_
+
+    ```html
+    <script>
+      // Burada JavaScript kodları yazılacaq
+    </script>
+
+    <noscript>Sizin brauzeriniz JavaScripti dəstəkləmir!</noscript>
+    ```
+
+<br>
