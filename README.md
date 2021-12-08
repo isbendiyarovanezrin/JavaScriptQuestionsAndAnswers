@@ -445,3 +445,28 @@
     ```
 
 <br>
+
+25. ### **How do you generate random integers?**
+
+    `Math.random()` metodu 0 (daxil olmaqla) ilə 1 (daxil deyil) arasında təsadüfi şəkildə (random) ədədlər qaytarır. `Math.random()` metodu həmişə 1-dən aşağı ədəd qaytarır.
+
+    _Nümunə:_
+
+    ```js
+    // 0 ilə 1 (daxil deyil) arasında random bir ədəd qaytaracaq
+    console.log(Math.random());
+    ```
+
+    `Math.floor` ilə istifadə olunan `Math.random()` metodu random **tam ədədləri** qaytarmaq üçün istifadə olunur, çünki `Math.floor` metodu ədədi aşağı ən yaxın tam ədədə yuvarlaqlaşdırır.
+
+    ```js
+    // 0 ilə 9 (daxil olmaqla) arasında random tam ədəd qaytaracaq
+    console.log(Math.floor(Math.random() * 10));
+    ```
+
+    ```js
+    // 1 ilə 10 (daxil olmaqla) arasında random tam ədəd qaytaracaq
+    console.log(Math.floor(Math.random() * 10) + 1);
+    ```
+
+<br>
