@@ -505,3 +505,37 @@
     ```
 
 <br>
+
+28. ### **How can you get the list of keys of any object?**
+
+    Bunun üçün `Object.keys()` və `Object.getOwnPropertyNames()` metodlarından istifadə edə bilərik. `Object.keys()` və `Object.getOwnPropertyNames()` metodları obyektin xüsusiyyət adlarından (property name) ibarət massiv qaytarır, amma ikisinin arasında kiçik fərqlər var. Onlardan biri `Object.getOwnPropertyNames()` metodu obyektin bütün xüsusiyyət adlarını qaytarır, `Object.keys()`metodu isə yalnız sadalanan (enumerable) xüsusiyyət adlarını qaytarır.
+
+    _Nümunə:_
+
+    `Object.keys()` metodunu yoxlayaq.
+
+    ```js
+    let user = { name: "Orkhan", surname: "Shahbaz", age: 29 };
+    console.log(Object.keys(user));
+    ```
+
+    _Çıxtısı:_
+
+    ```
+    [ 'name', 'surname', 'age' ]
+    ```
+
+    `Object.getOwnPropertyNames()` metodunu yoxlayaq.
+
+    ```js
+    let user = { name: "Orkhan", surname: "Shahbaz", age: 29 };
+    console.log(Object.getOwnPropertyNames(user));
+    ```
+
+    _Çıxtısı:_
+
+    ```
+    [ 'name', 'surname', 'age' ]
+    ```
+
+<br>
