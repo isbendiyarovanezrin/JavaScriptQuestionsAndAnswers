@@ -457,7 +457,7 @@
     console.log(Math.random());
     ```
 
-    `Math.floor` ilə istifadə olunan `Math.random()` metodu random **tam ədədləri** qaytarmaq üçün istifadə olunur, çünki `Math.floor` metodu ədədi aşağı ən yaxın tam ədədə yuvarlaqlaşdırır.
+    `Math.floor()` ilə istifadə olunan `Math.random()` metodu random **tam ədədləri** qaytarmaq üçün istifadə olunur, çünki `Math.floor()` metodu ədədi aşağı ən yaxın tam ədədə yuvarlaqlaşdırır.
 
     ```js
     // 0 ilə 9 (daxil olmaqla) arasında random tam ədəd qaytaracaq
