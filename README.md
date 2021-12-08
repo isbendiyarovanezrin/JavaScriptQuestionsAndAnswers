@@ -390,3 +390,60 @@
 
 23. ### **What is a polyfill?**
     Polyfill yazdığımız kodları dəstəkləməyən köhnə brauzerlərdə müasir funksionallığı təmin üçün istifadə edilən kod parçasıdır.
+
+<br>
+
+24. ### **How do you define JSON arrays?**
+
+    JSON massivləri kvadrat mötərizələrin ([]) içində yazılır və JavaScript obyektlərini saxlayır. JSON-dakı massivlər JavaScriptdəki massivlər ilə demək olar ki, eynidir. JSON-da massiv dəyərləri obyekt, string, number, null, massiv və ya boolean ola bilər. JSON stringini (içində JSON massivi olan) `JSON.parse()` metodu ilə massivə çevirə bilərik.
+
+    _Nümunə:_
+
+    ```js
+    const meyve =
+      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}, {"ad":"gilas", "növ":"burlat"}]}';
+    const result = JSON.parse(meyve);
+    console.log(result);
+    ```
+
+    _Çıxtısı:_
+
+    ```
+    [
+      { ad: 'alma', 'növ': 'sibir' },
+      { ad: 'armud', 'növ': 'lada' },
+      { ad: 'gilas', 'növ': 'burlat' }
+    ]
+    ```
+
+    Massiv indeksi 0-dan başlayır.
+
+    ```js
+    const meyve =
+      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}, {"ad":"gilas", "növ":"burlat"}]}';
+    const result = JSON.parse(meyve);
+    console.log(result.meyveler[2]);
+    ```
+
+    _Çıxtısı:_
+
+    ```
+    { ad: 'gilas', 'növ': 'burlat' }
+    ```
+
+    _Başqa bir nümunəyə baxaq:_
+
+    ```js
+    const meyve =
+      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}, {"ad":"gilas", "növ":"burlat"}]}';
+    const result = JSON.parse(meyve);
+    console.log(result.meyveler[1].ad);
+    ```
+
+    _Çıxtısı:_
+
+    ```
+    armud
+    ```
+
+<br>
