@@ -401,7 +401,7 @@
 
     ```js
     const meyve =
-      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}, {"ad":"gilas", "növ":"burlat"}]}';
+      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}]}';
     const result = JSON.parse(meyve);
     console.log(result);
     ```
@@ -409,33 +409,31 @@
     _Çıxtısı:_
 
     ```
-    [
-      { ad: 'alma', 'növ': 'sibir' },
-      { ad: 'armud', 'növ': 'lada' },
-      { ad: 'gilas', 'növ': 'burlat' }
-    ]
+    {
+     meyveler: [ { ad: 'alma', 'növ': 'sibir' }, { ad: 'armud', 'növ': 'lada' } ]
+    }
     ```
 
     Massiv indeksi 0-dan başlayır.
 
     ```js
     const meyve =
-      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}, {"ad":"gilas", "növ":"burlat"}]}';
+      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}]}';
     const result = JSON.parse(meyve);
-    console.log(result.meyveler[2]);
+    console.log(result.meyveler[0]);
     ```
 
     _Çıxtısı:_
 
     ```
-    { ad: 'gilas', 'növ': 'burlat' }
+    { ad: 'alma', 'növ': 'sibir' }
     ```
 
     _Başqa bir nümunəyə baxaq:_
 
     ```js
     const meyve =
-      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}, {"ad":"gilas", "növ":"burlat"}]}';
+      '{"meyveler":[{"ad":"alma", "növ":"sibir"}, {"ad":"armud", "növ":"lada"}]}';
     const result = JSON.parse(meyve);
     console.log(result.meyveler[1].ad);
     ```
