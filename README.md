@@ -271,9 +271,9 @@
     _Nümunə:_
 
     ```js
-    const str = '{"name":"Orkhan", "surname":"Shahbaz", "age":38}';
+    const str = '{"name":"Orkhan", "surname":"Shahbaz", "age":29}';
     const obj = JSON.parse(str);
-    console.log(obj); // { name: 'Orkhan', surname: 'Shahbaz', age: 38 }
+    console.log(obj); // { name: 'Orkhan', surname: 'Shahbaz', age: 29 }
     ```
 
     Burada obyekt əvəzinə massivə çevirəcək.
@@ -286,7 +286,7 @@
 
 <br>
 
-19. ### **What is the purpose JSON stringify?**
+1.  ### **What is the purpose JSON stringify?**
 
     JSON-un ümumi istifadəsi serverə və ya serverdən data mübadiləsi etməkdir və serverə məlumat göndərərkən data həmişə string formatda olmalıdır. **JSON.stringify()** metodu ilə JavaScript obyektini string formatına çevirə bilərsiniz.
 
@@ -467,6 +467,25 @@
     ```js
     // 1 ilə 10 (daxil olmaqla) arasında random tam ədəd qaytaracaq
     console.log(Math.floor(Math.random() * 10) + 1);
+    ```
+
+<br>
+
+26. ### **Can I use reserved words as identifiers?**
+
+    Xeyr, istifadə edilsə error verəcək. Dəyişən, funksiya adı kimi bu sözlərdən istifadə edilə bilməz. Məsələn: if, else, for, return, delete, default, this, switch, null, new, true, false, continue, do, const, with, try, break.
+
+    _Nümunə:_
+
+    ```js
+    let default = "text";
+    console.log(default);
+    ```
+
+    _Çıxtısı:_
+
+    ```js
+    SyntaxError: Unexpected token 'default'
     ```
 
 <br>
