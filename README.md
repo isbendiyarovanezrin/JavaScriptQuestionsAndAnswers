@@ -539,3 +539,19 @@
     ```
 
 <br>
+
+29. ### **How do you print the contents of web page?**
+
+    Window obyektinin `print()` metodu cari pəncərənin məzmununu çap etmək üçün istifadə olunur. `Print()` metodu müxtəlif çap seçimlərini seçməyə imkan verən çap dialoq qutusunu (Print Dialog Box) açır.
+
+    _Nümunə:_
+
+    Bu zaman buttona klik edəndə aşağıdakı çap dialoq qutusu açılacaq.
+
+    ```html
+    <button onclick="window.print()">Səhifəni çap et</button>
+    ```
+
+    <img width="85%" src="https://i.postimg.cc/9QTT4N8Q/print.png">
+
+<br>
