@@ -636,3 +636,19 @@
     ```
 
     "+" **unary plus** operatorudur və operandı number növünə çevirməyə çalışır (əgər ədəd deyilsə). Nəticə **NaN** olacaq, çünki JavaScript tərcüməçisi (interpreter) operandı number növünə çevirməyə çalışacaq və çevirmə uğursuz olacaq. Ona görə də **NaN** qaytaracaq.
+
+<br>
+
+33. ### **What happens if we add two arrays?**
+
+    Əgər biz iki massivi toplamağa çalışsaq massivlər birinci stringə çevriləcək, sonra isə birləşəcək.
+
+    _Nümunə:_
+
+    ```js
+    console.log([] + []); // ''
+    console.log([2, 5] + [5, 25]); // 2,55,25
+    console.log([2, 5] + ["-ci", 25]); // 2,5-ci,25
+    console.log(["Sa"] + ["mir"]); // Samir
+    console.log(["Sa"] + ["mir", "Aydan"]); // Samir,Aydan
+    ```
