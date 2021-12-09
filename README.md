@@ -744,3 +744,22 @@
     ```
 
 <br>
+
+40. ### **How do you display data in a tabular format using console object?**
+
+    `console.table()` metodu massivləri və obyektləri konsolda cədvəl formatında göstərmək üçün istifadə olunur. Mürəkkəb massivləri və ya obyektləri vizuallaşdırmaq lazım olanda çox faydalıdır.
+
+    _Nümunə:_
+
+    ```js
+    const meyve = [
+      { ad: "alma", növ: "sibir" },
+      { ad: "armud", növ: "lada" },
+      { ad: "gilas", növ: "regina" },
+    ];
+    console.table(meyve);
+    ```
+
+    _Çıxtısı:_
+
+    ![table](https://i.postimg.cc/3J4Hhq7L/table.png)
