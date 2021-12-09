@@ -652,3 +652,17 @@
     console.log(["Sa"] + ["mir"]); // Samir
     console.log(["Sa"] + ["mir", "Aydan"]); // Samir,Aydan
     ```
+
+<br>
+
+34. ### **How do you empty an array?**
+
+    Massivi boşaltmağın ən tez yollarından biri massivin uzunluğunu 0-a bərabər etməkdir.
+
+    _Nümunə:_
+
+    ```js
+    let meyveler = ["alma", "armud", "banan"];
+    meyveler.length = 0;
+    console.log(meyveler); // []
+    ```
