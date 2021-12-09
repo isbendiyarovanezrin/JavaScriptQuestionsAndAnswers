@@ -596,3 +596,35 @@
     ```
     [1, 2, 3, 4, 5, 6, 7, 8, 9]
     ```
+
+<br>
+
+31. ### **How do you create specific number of copies of a string?**
+
+    Bunun üçün JavaScript string `repeat()` metodundan istifadə etmək lazımdır. `Repeat()` metodu stringin bizim müəyyən etdiyimiz qədər kopyasından ibarət yeni string qaytarır. Bu metod ECMAScript 2015 spesifikasiyasına əlavə edilmişdir və helə də bütün JavaScript tətbiqlərində (implementations) mövcud olmaya bilər.
+
+    Sintaksisi bu şəkildədir:
+
+    ```
+    string.repeat(eded)
+    ```
+
+    Burada "eded" mənfi olmamalıdır.
+
+    _Nümunə:_
+
+    ```js
+    const text = "Nəzrin ";
+    const copy1 = text.repeat(-1);
+    const copy2 = text.repeat(0);
+    const copy3 = text.repeat(1);
+    const copy4 = text.repeat(4);
+    const copy5 = text.repeat(2.5);
+    console.log(copy1); // RangeError: Invalid count value
+    console.log(copy2); // '' (boş)
+    console.log(copy3); // Nəzrin
+    console.log(copy4); // Nəzrin Nəzrin Nəzrin Nəzrin
+    console.log(copy5); // Nəzrin Nəzrin (ədəd tam ədədə çevriləcək)
+    ```
+
+<br>
