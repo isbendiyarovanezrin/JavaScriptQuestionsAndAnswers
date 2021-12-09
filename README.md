@@ -697,3 +697,26 @@
     meyveObyekt = { ...meyve };
     console.log(meyveObyekt); // { '0': 'alma', '1': 'armud', '2': 'banan' }
     ```
+
+<br>
+
+37. ### **How do you create an array with some data?**
+
+    JavaScript massiv `fill()` metodundan istifadə edərək eyni məlumatlara malik massiv yarada bilərik. Başlanğıc və son mövqe müəyyən edilə bilər, əks halda bütün elementlər doldurulacaq.
+
+    Sintaksisi bu şəkildədir:
+
+    ```
+    massiv.fill(dəyər)
+    massiv.fill(dəyər, başlanğıc (defaultu 0-dır))
+    massiv.fill(dəyər, başlanğıc, son (defaultu massivin uzunluğudur))
+    ```
+
+    _Nümunə:_
+
+    ```js
+    let meyve = ["alma", "armud", "banan"];
+    console.log(meyve.fill("gilas")); // [ 'gilas', 'gilas', 'gilas' ]
+    ```
+
+<br>
