@@ -732,3 +732,15 @@
     ```
 
 <br>
+
+39. ### **How do you find operating system details?**
+
+    `window.navigator` obyekti ziyarətçinin brauzeri, əməliyyat sisteminin detalları və s. haqqında məlumatları ehtiva edir.
+
+    _Nümunə:_
+
+    ```js
+    console.log(navigator);
+    ```
+
+<br>
