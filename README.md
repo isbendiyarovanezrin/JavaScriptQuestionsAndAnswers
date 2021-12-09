@@ -666,3 +666,20 @@
     meyveler.length = 0;
     console.log(meyveler); // []
     ```
+
+<br>
+
+35. ### **How do you rounding numbers to certain decimals?**
+
+    Bunu JavaScript number `toFixed()` metodu ilə edə bilərik. `toFixed()` metodu ədədi stringə çevirir və müəyyən edilmiş ədədə qədər yuvarlaqlaşdırır.
+
+    _Nümunə:_
+
+    ```js
+    let eded = 5.62525225;
+    console.log(eded.toFixed());
+    console.log(eded.toFixed(0)); // 5
+    console.log(eded.toFixed(2)); // 5.63
+    console.log(eded.toFixed(5)); // 5.62525
+    console.log(typeof eded.toFixed(5)); // string
+    ```
