@@ -628,3 +628,11 @@
     ```
 
 <br>
+
+32. ### **What is the output of below console statement with unary operator?**
+
+    ```js
+    console.log(+"Hello");
+    ```
+
+    "+" **unary plus** operatorudur və operandı number növünə çevirməyə çalışır (əgər ədəd deyilsə). Nəticə **NaN** olacaq, çünki JavaScript tərcüməçisi (interpreter) operandı number növünə çevirməyə çalışacaq və çevirmə uğursuz olacaq. Ona görə də **NaN** qaytaracaq.
