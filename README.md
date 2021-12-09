@@ -683,3 +683,17 @@
     console.log(eded.toFixed(5)); // 5.62525
     console.log(typeof eded.toFixed(5)); // string
     ```
+
+<br>
+
+36. ### **What is the easiest way to convert an array to an object?**
+
+    Ən asan yolu spread (...) operatorundan istifadə etməkdir. Spread (...) operatorundan istifadə edərək massivi eyni data ilə obyektə çevirə bilərsiniz.
+
+    _Nümunə:_
+
+    ```js
+    let meyve = ["alma", "armud", "banan"];
+    meyveObyekt = { ...meyve };
+    console.log(meyveObyekt); // { '0': 'alma', '1': 'armud', '2': 'banan' }
+    ```
