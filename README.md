@@ -555,3 +555,44 @@
     <img width="85%" src="https://i.postimg.cc/9QTT4N8Q/print.png">
 
 <br>
+
+30. ### **How do you combine two or more arrays?**
+
+    İki və ya daha çox massivi birləşdirmək üçün `concat()` metodundan istifadə edə bilərik. `Concat()` metodu mövcud massivləri dəyişdirmir, birləşdirilmiş massivlərdən ibarət yeni massiv qaytarır.
+
+    Sintaksisi bu şəkildədir:
+
+    ```
+    massiv1.concat(massiv2, massiv3, ..., massivN)
+    ```
+
+    _Nümunə:_
+
+    ```js
+    const massiv1 = ["n", "e", "z"];
+    const massiv2 = ["r", "i", "n"];
+    const ad = massiv1.concat(massiv2);
+    console.log(ad);
+    ```
+
+    _Çıxtısı:_
+
+    ```
+    [ 'n', 'e', 'z', 'r', 'i', 'n' ]
+    ```
+
+    3 massivi də birləşdirmək olar.
+
+    ```js
+    const eded1 = [1, 2, 3];
+    const eded2 = [4, 5, 6];
+    const eded3 = [7, 8, 9];
+    const ededler = eded1.concat(eded2, eded3);
+    console.log(ededler);
+    ```
+
+    _Çıxtısı:_
+
+    ```
+    [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    ```
