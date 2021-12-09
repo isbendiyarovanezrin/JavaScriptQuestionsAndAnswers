@@ -615,11 +615,11 @@
 
     ```js
     const text = "Nəzrin ";
-    const copy1 = text.repeat(-1);
-    const copy2 = text.repeat(0);
-    const copy3 = text.repeat(1);
-    const copy4 = text.repeat(4);
-    const copy5 = text.repeat(2.5);
+    let copy1 = text.repeat(-1);
+    let copy2 = text.repeat(0);
+    let copy3 = text.repeat(1);
+    let copy4 = text.repeat(4);
+    let copy5 = text.repeat(2.5);
     console.log(copy1); // RangeError: Invalid count value
     console.log(copy2); // '' (boş)
     console.log(copy3); // Nəzrin
