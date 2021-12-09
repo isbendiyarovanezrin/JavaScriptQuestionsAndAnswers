@@ -720,3 +720,15 @@
     ```
 
 <br>
+
+38. ### **How do you disable right click in the web page?**
+
+    Veb səhifədə sağ klik hadisəsini body elementində `oncontextmenu` atributundan false qaytarmaqla deaktiv edə bilərik.
+
+    _Nümunə:_
+
+    ```html
+    <body oncontextmenu="return false;"></body>
+    ```
+
+<br>
