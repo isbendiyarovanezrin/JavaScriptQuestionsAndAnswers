@@ -266,7 +266,7 @@
 
 18. ### **How do you parse JSON string?**
 
-    JSON-un ümumi istifadəsi serverə və ya serverdən data mübadiləsi etməkdir və serverdən məlumat qəbul edərkən data həmişə string formatda olmalıdır. **JSON.parse()** metodu ilə aşağıdakı string dəyərini JavaScript obyektinə çevirə bilərsiniz.
+    JSON-un ümumi istifadəsi serverə və ya serverdən data mübadiləsi etməkdir və serverdən məlumat qəbul edərkən data həmişə string formatında olmalıdır. **JSON.parse()** metodu ilə aşağıdakı string dəyərini JavaScript obyektinə çevirə bilərsiniz.
 
     _Nümunə:_
 
