@@ -406,7 +406,7 @@
     console.log(result);
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```
     {
@@ -423,7 +423,7 @@
     console.log(result.meyveler[0]);
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```
     { ad: 'alma', 'növ': 'sibir' }
@@ -438,7 +438,7 @@
     console.log(result.meyveler[1].ad);
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```
     armud
@@ -482,7 +482,7 @@
     console.log(default);
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```js
     SyntaxError: Unexpected token 'default'
@@ -519,7 +519,7 @@
     console.log(Object.keys(user));
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```
     [ 'name', 'surname', 'age' ]
@@ -532,7 +532,7 @@
     console.log(Object.getOwnPropertyNames(user));
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```
     [ 'name', 'surname', 'age' ]
@@ -575,7 +575,7 @@
     console.log(ad);
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```
     [ 'n', 'e', 'z', 'r', 'i', 'n' ]
@@ -591,7 +591,7 @@
     console.log(ededler);
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ```
     [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -760,6 +760,6 @@
     console.table(meyve);
     ```
 
-    _Çıxtısı:_
+    _Nəticəsi:_
 
     ![table](https://i.postimg.cc/3J4Hhq7L/table.png)
