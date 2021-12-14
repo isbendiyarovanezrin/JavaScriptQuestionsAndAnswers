@@ -845,3 +845,27 @@
     |                            Silinmiş elementləri qaytarır                            |                     Seçilmiş elementləri yeni massiv kimi qaytarır                     |
     |            Nəticənin hər hansı dəyişənə təyin edilməsinə ehtiyac yoxdur             |                           Nəticə dəyişənə təyin edilməlidir                            |
     |                            n sayda arqument götürə bilər                            |                                   2 arqument götürür                                   |
+
+<br>
+
+44. ### **What is a first class function?**
+
+    JavaScript dili birinci dərəcəli funksiyalara (first class function) malikdir. Funksiyaların dəyişən olaraq qəbul edilə bilməsi halına birinci dərəcəli funksiyalar deyilir. Birinci dərəcəli funksiyalar başqa funksiyalara arqument kimi ötürülə bilər, başqa funksiya tərəfindən qaytarıla bilər və dəyişənə dəyər kimi təyin edilə bilər.
+
+    _Nümunə:_
+
+    ```js
+    const myFunc = function () {
+      console.log(55);
+    };
+    myFunc(); // 55
+    ```
+
+    ```js
+    const myFunc = (num) => () => {
+      console.log(num + 25);
+    };
+    myFunc(55)(); // 80
+    ```
+
+<br>
