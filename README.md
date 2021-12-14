@@ -288,7 +288,6 @@
 
 19. ### **What is the purpose JSON stringify?**
 
-
     JSON-un ümumi istifadəsi serverə və ya serverdən data mübadiləsi etməkdir və serverə məlumat göndərərkən data həmişə string formatda olmalıdır. **JSON.stringify()** metodu ilə JavaScript obyektini string formatına çevirə bilərsiniz.
 
     _Nümunə:_
@@ -602,7 +601,7 @@
 
 31. ### **How do you create specific number of copies of a string?**
 
-    Bunun üçün JavaScript string `repeat()` metodundan istifadə etmək lazımdır. `Repeat()` metodu stringin bizim müəyyən etdiyimiz qədər kopyasından ibarət yeni string qaytarır. Bu metod ECMAScript 2015 spesifikasiyasına əlavə edilmişdir və helə də bütün JavaScript tətbiqlərində (implementations) mövcud olmaya bilər.
+    Bunun üçün JavaScript string `repeat()` metodundan istifadə etmək lazımdır. `Repeat()` metodu stringin bizim müəyyən etdiyimiz qədər kopyasından ibarət yeni string qaytarır. Bu metod ECMAScript 2015 spesifikasiyasına əlavə edilmişdir və hələ də bütün JavaScript tətbiqlərində (implementations) mövcud olmaya bilər.
 
     _Sintaksisi bu şəkildədir:_
 
