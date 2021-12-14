@@ -891,7 +891,7 @@
 
 46. ### **How do you access history in JavaScript?**
 
-    JavaScriptdə `window.history` obyekti brauzer tarixçəsini saxlayır və "window" prefiksi olmadan da yazıla bilər. `Window.history` obyektinin `history.back` və `history.forward` metodlarından istifadə edərək tarixçədə əvvəlki və sonrakı URL-ləri yükləmək olar.
+    JavaScriptdə `window.history` obyekti brauzer tarixçəsini saxlayır və "window" prefiksi olmadan da yazıla bilir. `Window.history` obyektinin `history.back` və `history.forward` metodlarından istifadə edərək tarixçədə əvvəlki və sonrakı URL-ləri yükləmək olar.
 
     _Nümunə:_
 
@@ -905,6 +905,23 @@
     function goForward() {
       history.forward();
     }
+    ```
+
+<br>
+
+47. ### **What is the purpose of isFinite function?**
+
+    `isFinite()` metodu verilən dəyərin sonlu ədəd olub-olmamasını yoxlayır və boolean (true və ya false) dəyər qaytarır. Əgər dəyər Infinity, -Infinity və NaN (**N**ot-**a**-**N**umber) olarsa false, qalan hallarda true qaytarır.
+
+    _Nümunə:_
+
+    ```js
+    console.log(isFinite(Infinity)); // false
+    console.log(isFinite(-Infinity)); // false
+    console.log(isFinite(NaN)); // false
+    console.log(isFinite(undefined)); // false
+    console.log(isFinite(0)); // true
+    console.log(isFinite(52)); // true
     ```
 
 <br>
