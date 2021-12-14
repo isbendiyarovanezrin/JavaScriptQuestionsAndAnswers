@@ -831,3 +831,17 @@
     meyve.splice(3, 0, "ananas", "heyva");
     console.log(meyve); // [ 'alma', 'gilas', 'armud', 'ananas', 'heyva', 'kivi', 'nar' ]
     ```
+
+<br>
+
+43. ### **What is the difference between slice and splice?**
+
+    Aşağıdakı cədvəldə aralarındakı əsas fərqlər var.
+
+    |                                   splice() metodu                                   |                                     slice() metodu                                     |
+    | :---------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
+    |                             Orijinal massivi dəyişdirir                             |                              Orijinal massivi dəyişdirmir                              |
+    | Mövcud elementləri əvəz etmək, silmək və yaxud yerini dəyişmək üçün istifadə olunur | Verilmiş başlanğıcdan verilmiş sona qədər olan elementləri seçmək üçün istifadə olunur |
+    |                            Silinmiş elementləri qaytarır                            |                     Seçilmiş elementləri yeni massiv kimi qaytarır                     |
+    |            Nəticənin hər hansı dəyişənə təyin edilməsinə ehtiyac yoxdur             |                           Nəticə dəyişənə təyin edilməlidir                            |
+    |                            n sayda arqument götürə bilər                            |                                   2 arqument götürür                                   |
