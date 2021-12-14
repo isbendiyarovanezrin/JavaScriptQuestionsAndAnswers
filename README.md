@@ -966,3 +966,19 @@
     ```
 
 <br>
+
+50. ### **Can we define properties for functions?**
+
+    Bəli, funksiyalara xüsusiyyətlər təyin etmək olar, çünki JavaScriptdə funksiyalar birinci dərəcəli obyektlərdir (first-class objects). Funksiyalar ilə obyektləri bir-birindən fərqləndirən cəhət funksiyalar çağrıla bilir. Funksiyalara çağrıla bilən obyektlər də demək olar.
+
+    _Nümunə:_
+
+    ```js
+    let myFunc = function () {
+      myFunc.surname = "Objects";
+    };
+
+    myFunc();
+
+    console.log(myFunc.surname); // Objects
+    ```
