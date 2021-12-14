@@ -869,3 +869,20 @@
     ```
 
 <br>
+
+45. ### **What is the purpose of the delete operator?**
+
+    `delete` operatoru obyektdən xüsusiyyəti (və onun dəyərini) silir.
+
+    _Nümunə:_
+
+    ```js
+    const obj = {
+      name: "Orkhan",
+      surname: "Shahbaz",
+    };
+
+    delete obj.surname;
+    console.log(obj); // { name: 'Orkhan' }
+    console.log(obj.surname); // undefined
+    ```
