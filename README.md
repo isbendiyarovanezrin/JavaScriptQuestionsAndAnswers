@@ -886,3 +886,25 @@
     console.log(obj); // { name: 'Orkhan' }
     console.log(obj.surname); // undefined
     ```
+
+<br>
+
+46. ### **How do you access history in JavaScript?**
+
+    JavaScriptdə `window.history` obyekti brauzer tarixçəsini saxlayır və "window" prefiksi olmadan da yazıla bilər. `Window.history` obyektinin `history.back` və `history.forward` metodlarından istifadə edərək tarixçədə əvvəlki və sonrakı URL-ləri yükləmək olar.
+
+    _Nümunə:_
+
+    Buttona klik edəndə sonrakı səhifəyə gedəcək.
+
+    ```html
+    <input type="button" value="Forward" onclick="goForward()" />
+    ```
+
+    ```js
+    function goForward() {
+      history.forward();
+    }
+    ```
+
+<br>
