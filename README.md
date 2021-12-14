@@ -763,3 +763,31 @@
     _Nəticəsi:_
 
     ![table](https://i.postimg.cc/3J4Hhq7L/table.png)
+
+<br>
+
+41. ### **What is the purpose of the array slice method?**
+
+    `slice()` metodu massivdə seçilmiş elementləri yeni massiv kimi qaytarır. `slice()` metodu verilmiş başlanğıcdan verilmiş sona qədər (sonuncu ədəd daxil deyil) seçir. Əgər bitiş ədədini yazmasaq verilmiş başlanğıcdan sona qədər seçəcək. Bu metod orijinal massivi dəyişmir.
+
+    Sintaksisi bu şəkildədir:
+
+    ```
+    massiv.slice()
+    massiv.slice(başlanğıc)
+    massiv.slice(başlanğıc, son)
+    ```
+
+    _Nümunə:_
+
+    ```js
+    const meyve = ["alma", "armud", "banan", "nar"];
+    console.log(meyve.slice()); // [ 'alma', 'armud', 'banan', 'nar' ]
+    console.log(meyve.slice(1)); // [ 'armud', 'banan', 'nar' ]
+    console.log(meyve.slice(1, 2)); // [ 'armud' ]
+    console.log(meyve.slice(1, 3)); // [ 'armud', 'banan' ]
+    console.log(meyve.slice(1, 4)); // [ 'armud', 'banan', 'nar' ]
+    console.log(meyve.slice(-1)); // [ 'nar' ]
+    console.log(meyve.slice(-2)); // [ 'banan', 'nar' ]
+    console.log(meyve.slice(1, -1)); // [ 'armud', 'banan' ]
+    ```
