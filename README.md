@@ -357,7 +357,7 @@
 
     Bunu JavaScript string `startsWith()` metodu ilə etmək olar. `StartsWith()` metodu stringin təyin edilmiş string ilə başlayıb-başlamadığını müəyyən edir və boolean (true və ya false) dəyər qaytarır. Əgər string təyin edilmiş string ilə başlayırsa true qaytarır, əks halda false qaytarır.
 
-    Sintaksisi bu şəkildədir: <br>
+    _Sintaksisi bu şəkildədir:_ <br>
 
     ```
     string.startsWith(axtarılan string)
@@ -560,7 +560,7 @@
 
     İki və ya daha çox massivi birləşdirmək üçün `concat()` metodundan istifadə edə bilərik. `Concat()` metodu mövcud massivləri dəyişdirmir, birləşdirilmiş massivlərdən ibarət yeni massiv qaytarır.
 
-    Sintaksisi bu şəkildədir:
+    _Sintaksisi bu şəkildədir:_
 
     ```
     massiv1.concat(massiv2, massiv3, ..., massivN)
@@ -603,7 +603,7 @@
 
     Bunun üçün JavaScript string `repeat()` metodundan istifadə etmək lazımdır. `Repeat()` metodu stringin bizim müəyyən etdiyimiz qədər kopyasından ibarət yeni string qaytarır. Bu metod ECMAScript 2015 spesifikasiyasına əlavə edilmişdir və helə də bütün JavaScript tətbiqlərində (implementations) mövcud olmaya bilər.
 
-    Sintaksisi bu şəkildədir:
+    _Sintaksisi bu şəkildədir:_
 
     ```
     string.repeat(eded)
@@ -704,7 +704,7 @@
 
     JavaScript massiv `fill()` metodundan istifadə edərək eyni məlumatlara malik massiv yarada bilərik. Başlanğıc və son mövqe müəyyən edilə bilər, əks halda bütün elementlər doldurulacaq.
 
-    Sintaksisi bu şəkildədir:
+    _Sintaksisi bu şəkildədir:_
 
     ```
     massiv.fill(dəyər)
@@ -770,7 +770,7 @@
 
     `slice()` metodu massivdə seçilmiş elementləri yeni massiv kimi qaytarır. `slice()` metodu verilmiş başlanğıcdan verilmiş sona qədər (sonuncu ədəd daxil deyil) seçir. Əgər bitiş ədədini yazmasaq verilmiş başlanğıcdan sona qədər seçəcək. Bu metod orijinal massivi dəyişmir.
 
-    Sintaksisi bu şəkildədir:
+    _Sintaksisi bu şəkildədir:_
 
     ```
     massiv.slice()
@@ -790,4 +790,44 @@
     console.log(meyve.slice(-1)); // [ 'nar' ]
     console.log(meyve.slice(-2)); // [ 'banan', 'nar' ]
     console.log(meyve.slice(1, -1)); // [ 'armud', 'banan' ]
+    ```
+
+<br>
+
+42. ### **What is the purpose of the array splice method?**
+
+    `splice()` metodu mövcud elementləri əvəz etməklə, silməklə və yaxud yerinə yeni elementlər əlavə etməklə massivin məzmununu dəyişdirir və silinmiş massivi qaytarır. Birinci arqument əlavə etmək və ya silmək üçün massiv mövqeyini, istəyə bağlı ikinci arqument isə silinəcək element sayını göstərir.
+
+    _Sintaksisi bu şəkildədir:_
+
+    ```
+    massiv.slice(başlanğıc)
+    massiv.slice(başlanğıc, silinənElementSayı, element1)
+    massiv.slice(başlanğıc, silinənElementSayı, element1, element2, elementN)
+    ```
+
+    _Nümunə:_
+
+    ```js
+    const meyve = ["alma", "armud", "banan", "nar"];
+    console.log(meyve.splice(1, 2)); // [ 'armud', 'banan' ]
+    console.log(meyve); // [ 'alma', 'nar' ]
+    ```
+
+    ```js
+    const meyve = ["alma", "armud", "banan", "nar"];
+    console.log(meyve.splice(-2, 1)); // [ 'banan' ]
+    console.log(meyve); // [ 'alma', 'armud', 'nar' ]
+    ```
+
+    ```js
+    const meyve = ["alma", "armud", "banan", "nar"];
+    meyve.splice(2, 1, "kivi");
+    console.log(meyve); // [ 'alma', 'armud', 'kivi', 'nar' ]
+
+    meyve.splice(1, 0, "gilas");
+    console.log(meyve); // [ 'alma', 'gilas', 'armud', 'kivi', 'nar' ]
+
+    meyve.splice(3, 0, "ananas", "heyva");
+    console.log(meyve); // [ 'alma', 'gilas', 'armud', 'ananas', 'heyva', 'kivi', 'nar' ]
     ```
