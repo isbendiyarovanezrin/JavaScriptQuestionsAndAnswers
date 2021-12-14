@@ -925,3 +925,25 @@
     ```
 
 <br>
+
+48. ### **How do you sort elements in an array?**
+
+    JavaScriptdə `sort()` metodu massivdəki elementləri sıralayır və sıralanmış massivi qaytarır.
+
+    _Nümunə:_
+
+    Bu zaman elementlər əlifba sırasına görə sıralanacaq.
+
+    ```js
+    const meyveler = ["alma", "gilas", "banan", "armud", "kivi"];
+    meyveler.sort();
+    console.log(meyveler); // [ 'alma', 'armud', 'banan', 'gilas', 'kivi' ]
+    ```
+
+    Bu zaman ədədlər kiçikdən böyüyə doğru (artan sıra ilə) sıralanacaq.
+
+    ```js
+    const ededler = [1, 25, 52, 50, 21, 10];
+    ededler.sort();
+    console.log(ededler); // [ 1, 10, 21, 25, 50, 52 ]
+    ```
