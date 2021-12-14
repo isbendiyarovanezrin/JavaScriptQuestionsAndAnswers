@@ -286,7 +286,8 @@
 
 <br>
 
-1.  ### **What is the purpose JSON stringify?**
+19. ### **What is the purpose JSON stringify?**
+
 
     JSON-un ümumi istifadəsi serverə və ya serverdən data mübadiləsi etməkdir və serverə məlumat göndərərkən data həmişə string formatda olmalıdır. **JSON.stringify()** metodu ilə JavaScript obyektini string formatına çevirə bilərsiniz.
 
