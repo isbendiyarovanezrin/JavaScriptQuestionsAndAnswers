@@ -982,3 +982,5 @@
 
     console.log(myFunc.surname); // Objects
     ```
+
+    #### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/JavaScriptQuestionsAndAnswers#readme)
