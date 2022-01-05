@@ -4,12 +4,12 @@
 ### **JavaScript Interview Questions and Answers**
 
 </div>
-<br>
+<br />
 
 1. #### **What is the difference between == and === operators?**
 
-   "==" operatoruna bərabərlik operatoru deyilir. Dəyişənlərin data tiplərini nəzərə almadan iki dəyişəni müqayisə etmək üçün istifadə edilir və boolean dəyər (true və ya false) qaytarır. Əgər dəyişənlərin dəyəri eynidirsə true qaytarır, deyilsə false qaytarır. <br>
-   "===" operatoruna isə qatı bərabərlik operatoru deyilir və "==" operatorundan fərqli olaraq iki dəyişənin həm dəyərini müqayisə edir, həm də data tiplərini yoxlayır. Əgər hər ikisi də eynidirsə true qaytarır, deyilsə false qaytarır. <br>
+   "==" operatoruna bərabərlik operatoru deyilir. Dəyişənlərin data tiplərini nəzərə almadan iki dəyişəni müqayisə etmək üçün istifadə edilir və boolean dəyər (true və ya false) qaytarır. Əgər dəyişənlərin dəyəri eynidirsə true qaytarır, deyilsə false qaytarır. <br />
+   "===" operatoruna isə qatı bərabərlik operatoru deyilir və "==" operatorundan fərqli olaraq iki dəyişənin həm dəyərini müqayisə edir, həm də data tiplərini yoxlayır. Əgər hər ikisi də eynidirsə true qaytarır, deyilsə false qaytarır. <br />
 
    _Bir neçə nümunəyə baxaq:_
 
@@ -32,11 +32,11 @@
    NaN === NaN; // false
    ```
 
-<br>
+<br />
 
 2. ### **What is null value?**
 
-   Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv data növüdür və typeof operatorundan istifadə edəndə object qaytarır. <br>
+   Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv data növüdür və typeof operatorundan istifadə edəndə object qaytarır. <br />
 
    _Nümunə:_
 
@@ -46,11 +46,11 @@
    alert(typeof test); // object
    ```
 
-<br>
+<br />
 
 3. ### **What is undefined property?**
 
-   Undefined dəyişənin olduğunu, lakin dəyər təyin edilmədiyini bildirən primitiv data növüdür və typeof operatorundan istifadə edəndə undefined qaytarır. <br>
+   Undefined dəyişənin olduğunu, lakin dəyər təyin edilmədiyini bildirən primitiv data növüdür və typeof operatorundan istifadə edəndə undefined qaytarır. <br />
 
    _Nümunə:_
 
@@ -60,11 +60,11 @@
    alert(typeof test); // undefined
    ```
 
-<br>
+<br />
 
 4. ### **What is isNaN?**
 
-   JavaScriptdə isNaN() metodu dəyərin ədəd olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot-**a**-**N**umber) olarsa (yəni ədəd olmazsa), bu zaman true qaytarır, əks halda false qaytarır. <br>
+   JavaScriptdə isNaN() metodu dəyərin ədəd olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot-**a**-**N**umber) olarsa (yəni ədəd olmazsa), bu zaman true qaytarır, əks halda false qaytarır. <br />
 
    _Nümunə:_
 
@@ -84,11 +84,11 @@
    isNaN(new Date()); // false
    ```
 
-<br>
+<br />
 
 5. ### **What is the typeof operator?**
 
-   JavaScriptdə typeof operatorundan dəyişənlərin data tipini tapmaq üçün istifadə olunur. <br>
+   JavaScriptdə typeof operatorundan dəyişənlərin data tipini tapmaq üçün istifadə olunur. <br />
 
    _Nümunə:_
 
@@ -127,16 +127,16 @@
    typeof function () {}; // 'function'
    ```
 
-<br>
+<br />
 
 6. ### **Who created JavaScript?**
    JavaScript ilk dəfə **1995**-ci ildə **Brendan Eich** tərəfindən **Netscape Navigator 2.0** ilə birlikdə buraxılmışdır. İlk olaraq **Mocha** adı verildi, daha sonra **LiveScript** və ən sonda isə **JavaScript** adını aldı.
 
-<br>
+<br />
 
 7. ### **What are primitive data types?**
 
-   JavaScriptdə primitiv data növləri metodları və xüsusiyyətləri (properties) olmayan datadır. 7 primitiv data növü var. <br>
+   JavaScriptdə primitiv data növləri metodları və xüsusiyyətləri (properties) olmayan datadır. 7 primitiv data növü var. <br />
 
 - number
 - bigint
@@ -146,11 +146,11 @@
 - symbol
 - boolean
 
-<br>
+<br />
 
 8. ### **What is NaN property?**
 
-   NaN "**N**ot-**a**-**N**umber" (ədəd olmayan) dəyərləri təmsil edən qlobal xüsusiyyətdir. NaN xüsusiyyətindən daxil edilmiş nömrələrin etibarlı olub-olmamasını yoxlamaq üçün istifadə edilə bilər. <br>
+   NaN "**N**ot-**a**-**N**umber" (ədəd olmayan) dəyərləri təmsil edən qlobal xüsusiyyətdir. NaN xüsusiyyətindən daxil edilmiş nömrələrin etibarlı olub-olmamasını yoxlamaq üçün istifadə edilə bilər. <br />
 
    _Nümunə:_
 
@@ -166,7 +166,7 @@
    "text" - 5; // NaN
    ```
 
-   <br>
+   <br />
 
 9. ### **What are the bitwise operators available in JavaScript?**
 
@@ -182,7 +182,7 @@
    |    >>    | Sign-propagating right shift |   a >> b   |
    |   >>>    |    Zero-fill right shift     |  a >>> b   |
 
-<br>
+<br />
 
 10. ### **What is the use of setTimeout?**
 
@@ -200,7 +200,7 @@
 
     Bu o deməkdir ki, sayHello() metodu 5 saniyədən (5000 millisaniyə) sonra işə düşəcək, yəni bir dəfə 5 saniyədən sonra ekranda "Hello!" yazısı görünəcək.
 
-<br>
+<br />
 
 11. ### **What is the use of setInterval?**
 
@@ -218,24 +218,24 @@
 
     Bu o deməkdir ki, sayHello() metodu hər 5 saniyədən (5000 millisaniyə) bir işə düşəcək, yəni hər 5 saniyədən bir ekranda "Hello!" yazısı görünəcək.
 
-<br>
+<br />
 
 12. ### **What would be the result of 1+2+'3'?**
     Cavab 33-dür, çünki ilk iki dəyər ədəddir və ona görə də birinci 1 və 2 toplanacaq (3+'3'). Ondan sonrakı dəyər isə string'dir və string olduğu üçün də dəyərlər birləşəcək və cavab 33 olacaq.
 
-<br>
+<br />
 
 13. ### **What is the difference between internal and external JavaScript?**
 
     Internal (daxili) JavaScript HTML-də `<script></script>` teqinin içində yazılır. External (xarici) JavaScriptdə isə JavaScript kodları ayrıca ".js" uzantılı faylın içində yazılır və HTML-də bu kod ilə çağırılır `<script src="filename.js"></script>`.
 
-<br>
+<br />
 
 14. ### **What paradigm is JavaScript?**
 
     JavaScript **funksional (functional)**, **obyekt yönümlü (object-oriented)**, **prosessual/imperativ (procedural/imperative)** və **prototip (prototypal)** proqramlaşdırmanı dəstəkləyən **çoxparadiqmalı (multi-paradigm)** dildir.
 
-<br>
+<br />
 
 15. ### **What is JSON?**
 
@@ -247,7 +247,7 @@
     { "ad": "Samir", "soyad": "Karimov" }
     ```
 
-<br>
+<br />
 
 16. ### **What are the syntax rules of JSON?**
     JSON-un aşağıdakı sintaksis qaydaları var:
@@ -257,12 +257,12 @@
 - Bəzəkli mötərizələr ({}) obyektləri saxlayır.
 - Kvadrat mötərizələr ([]) arrayları saxlayır.
 
-<br>
+<br />
 
 17. ### **Why do you need JSON?**
     Serverlə brauzer arasında olan məlumat mübadiləsi yalnız mətn ola bilər. JSON da yalnız mətn olduğundan serverə və ya serverdən asanlıqla göndərilə bilər və bütün proqramlaşdırma dilləri tərəfindən data formatı kimi istifadə oluna bilər.
 
-<br>
+<br />
 
 18. ### **How do you parse JSON string?**
 
@@ -284,7 +284,7 @@
     console.log(arr); // [ 'alma', 'armud', 'banan', 'nar' ]
     ```
 
-<br>
+<br />
 
 19. ### **What is the purpose JSON stringify?**
 
@@ -305,7 +305,7 @@
 
     `myJSON` indi stringdir və serverə göndərilməyə hazırdır.
 
-<br>
+<br />
 
 20. ### **How do you redirect new page in JavaScript?**
 
@@ -339,7 +339,7 @@
     }
     ```
 
-<br>
+<br />
 
 21. ### **How do you get the current url with JavaScript?**
 
@@ -351,13 +351,13 @@
     console.log(window.location.href); // cari URL adresini qaytarır
     ```
 
-<br>
+<br />
 
 22. ### **How do you check if a string starts with another string?**
 
     Bunu JavaScript string `startsWith()` metodu ilə etmək olar. `StartsWith()` metodu stringin təyin edilmiş string ilə başlayıb-başlamadığını müəyyən edir və boolean (true və ya false) dəyər qaytarır. Əgər string təyin edilmiş string ilə başlayırsa true qaytarır, əks halda false qaytarır.
 
-    _Sintaksisi bu şəkildədir:_ <br>
+    _Sintaksisi bu şəkildədir:_ <br />
 
     ```
     string.startsWith(axtarılan string)
@@ -386,12 +386,12 @@
     console.log(result); // false qaytaracaq
     ```
 
-<br>
+<br />
 
 23. ### **What is a polyfill?**
     Polyfill yazdığımız kodları dəstəkləməyən köhnə brauzerlərdə müasir funksionallığı təmin üçün istifadə edilən kod parçasıdır.
 
-<br>
+<br />
 
 24. ### **How do you define JSON arrays?**
 
@@ -444,7 +444,7 @@
     armud
     ```
 
-<br>
+<br />
 
 25. ### **How do you generate random integers?**
 
@@ -469,7 +469,7 @@
     console.log(Math.floor(Math.random() * 10) + 1);
     ```
 
-<br>
+<br />
 
 26. ### **Can I use reserved words as identifiers?**
 
@@ -488,7 +488,7 @@
     SyntaxError: Unexpected token 'default'
     ```
 
-<br>
+<br />
 
 27. ### **How do you detect JavaScript disabled in the page?**
 
@@ -504,7 +504,7 @@
     <noscript>Sizin brauzeriniz JavaScripti dəstəkləmir!</noscript>
     ```
 
-<br>
+<br />
 
 28. ### **How can you get the list of keys of any object?**
 
@@ -538,7 +538,7 @@
     [ 'name', 'surname', 'age' ]
     ```
 
-<br>
+<br />
 
 29. ### **How do you print the contents of web page?**
 
@@ -554,7 +554,7 @@
 
     <img width="85%" src="https://i.postimg.cc/9QTT4N8Q/print.png">
 
-<br>
+<br />
 
 30. ### **How do you combine two or more arrays?**
 
@@ -597,7 +597,7 @@
     [1, 2, 3, 4, 5, 6, 7, 8, 9]
     ```
 
-<br>
+<br />
 
 31. ### **How do you create specific number of copies of a string?**
 
@@ -627,7 +627,7 @@
     console.log(copy5); // Nəzrin Nəzrin (ədəd tam ədədə çevriləcək)
     ```
 
-<br>
+<br />
 
 32. ### **What is the output of below console statement with unary operator?**
 
@@ -637,7 +637,7 @@
 
     "+" **unary plus** operatorudur və operandı number növünə çevirməyə çalışır (əgər ədəd deyilsə). Nəticə **NaN** olacaq, çünki JavaScript tərcüməçisi (interpreter) operandı number növünə çevirməyə çalışacaq və çevirmə uğursuz olacaq. Ona görə də **NaN** qaytaracaq.
 
-<br>
+<br />
 
 33. ### **What happens if we add two arrays?**
 
@@ -653,7 +653,7 @@
     console.log(["Sa"] + ["mir", "Aydan"]); // Samir,Aydan
     ```
 
-<br>
+<br />
 
 34. ### **How do you empty an array?**
 
@@ -667,7 +667,7 @@
     console.log(meyveler); // []
     ```
 
-<br>
+<br />
 
 35. ### **How do you rounding numbers to certain decimals?**
 
@@ -684,7 +684,7 @@
     console.log(typeof eded.toFixed(5)); // string
     ```
 
-<br>
+<br />
 
 36. ### **What is the easiest way to convert an array to an object?**
 
@@ -698,7 +698,7 @@
     console.log(meyveObyekt); // { '0': 'alma', '1': 'armud', '2': 'banan' }
     ```
 
-<br>
+<br />
 
 37. ### **How do you create an array with some data?**
 
@@ -719,7 +719,7 @@
     console.log(meyve.fill("gilas")); // [ 'gilas', 'gilas', 'gilas' ]
     ```
 
-<br>
+<br />
 
 38. ### **How do you disable right click in the web page?**
 
@@ -731,7 +731,7 @@
     <body oncontextmenu="return false;"></body>
     ```
 
-<br>
+<br />
 
 39. ### **How do you find operating system details?**
 
@@ -743,7 +743,7 @@
     console.log(navigator);
     ```
 
-<br>
+<br />
 
 40. ### **How do you display data in a tabular format using console object?**
 
@@ -764,7 +764,7 @@
 
     ![table](https://i.postimg.cc/3J4Hhq7L/table.png)
 
-<br>
+<br />
 
 41. ### **What is the purpose of the array slice method?**
 
@@ -792,7 +792,7 @@
     console.log(meyve.slice(1, -1)); // [ 'armud', 'banan' ]
     ```
 
-<br>
+<br />
 
 42. ### **What is the purpose of the array splice method?**
 
@@ -832,7 +832,7 @@
     console.log(meyve); // [ 'alma', 'gilas', 'armud', 'ananas', 'heyva', 'kivi', 'nar' ]
     ```
 
-<br>
+<br />
 
 43. ### **What is the difference between slice and splice?**
 
@@ -846,7 +846,7 @@
     |            Nəticənin hər hansı dəyişənə təyin edilməsinə ehtiyac yoxdur             |                           Nəticə dəyişənə təyin edilməlidir                            |
     |                            n sayda arqument götürə bilər                            |                                   2 arqument götürür                                   |
 
-<br>
+<br />
 
 44. ### **What is a first class function?**
 
@@ -868,7 +868,7 @@
     myFunc(55)(); // 80
     ```
 
-<br>
+<br />
 
 45. ### **What is the purpose of the delete operator?**
 
@@ -887,7 +887,7 @@
     console.log(obj.surname); // undefined
     ```
 
-<br>
+<br />
 
 46. ### **How do you access history in JavaScript?**
 
@@ -907,7 +907,7 @@
     }
     ```
 
-<br>
+<br />
 
 47. ### **What is the purpose of isFinite function?**
 
@@ -924,7 +924,7 @@
     console.log(isFinite(52)); // true
     ```
 
-<br>
+<br />
 
 48. ### **How do you sort elements in an array?**
 
@@ -948,7 +948,7 @@
     console.log(ededler); // [ 1, 10, 21, 25, 50, 52 ]
     ```
 
-<br>
+<br />
 
 49. ### **How do you define multiline strings?**
 
@@ -965,7 +965,7 @@
     console.log(text); // Bura heç nə yazmayacam.
     ```
 
-<br>
+<br />
 
 50. ### **Can we define properties for functions?**
 
