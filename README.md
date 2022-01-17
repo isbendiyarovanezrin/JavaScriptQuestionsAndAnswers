@@ -3,7 +3,7 @@
 
 ### JavaScript Interview Questions and Answers
 
-### “The strength of JavaScript is that you can do anything. The weakness is that you will.”
+#### “The strength of JavaScript is that you can do anything. The weakness is that you will.”
 
 <p align="end"><em>- Reg Braithwaite</em></p>
 </div>
