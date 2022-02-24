@@ -473,9 +473,7 @@
     console.log(Math.floor(Math.random() * 10) + 1);
     ```
 
-<br />
-
-#### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/JavaScriptQuestionsAndAnswers#readme)
+    #### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/JavaScriptQuestionsAndAnswers#readme)
 
 26. ### Can I use reserved words as identifiers?
 
