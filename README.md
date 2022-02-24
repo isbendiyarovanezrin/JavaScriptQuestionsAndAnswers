@@ -475,6 +475,8 @@
 
 <br />
 
+#### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/JavaScriptQuestionsAndAnswers#readme)
+
 26. ### Can I use reserved words as identifiers?
 
     Xeyr, istifadə edilsə error verəcək. Dəyişən, funksiya adı kimi bu sözlərdən istifadə edilə bilməz. Məsələn: if, else, for, return, delete, default, this, switch, null, new, true, false, continue, do, const, with, try, break.
