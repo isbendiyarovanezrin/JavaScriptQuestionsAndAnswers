@@ -13,7 +13,7 @@
 1. #### What is the difference between == and === operators?
 
    "==" operatoruna bərabərlik operatoru deyilir. Dəyişənlərin data tiplərini nəzərə almadan iki dəyişəni müqayisə etmək üçün istifadə edilir və boolean dəyər (true və ya false) qaytarır. Əgər dəyişənlərin dəyəri eynidirsə true qaytarır, deyilsə false qaytarır. <br />
-   "===" operatoruna isə qatı bərabərlik operatoru deyilir və "==" operatorundan fərqli olaraq iki dəyişənin həm dəyərini müqayisə edir, həm də data tiplərini yoxlayır. Əgər hər ikisi də eynidirsə true qaytarır, deyilsə false qaytarır. <br />
+   "===" operatoruna isə qatı bərabərlik operatoru deyilir və "==" operatorundan fərqli olaraq iki dəyişənin həm dəyərini müqayisə edir, həm də data tiplərini yoxlayır. Əgər hər ikisi də eynidirsə true qaytarır, deyilsə false qaytarır.
 
    _Bir neçə nümunəyə baxaq:_
 
@@ -40,7 +40,7 @@
 
 2. ### What is null value?
 
-   Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv data növüdür və typeof operatorundan istifadə edəndə object qaytarır. <br />
+   Null dəyərin yoxluğunu ifadə edən JavaScriptə xas primitiv data növüdür və typeof operatorundan istifadə edəndə object qaytarır.
 
    _Nümunə:_
 
@@ -109,7 +109,7 @@
 
    // strings
    typeof ""; // 'string'
-   typeof "3"; // 'string'
+   typeof "5"; // 'string'
    typeof "text"; // 'string'
    typeof `string text`; // 'string'
    typeof typeof 5; // 'string'
@@ -248,7 +248,7 @@
     _Nümunə:_
 
     ```json
-    { "ad": "Samir", "soyad": "Karimov" }
+    { "ad": "Vüsalə", "soyad": "İsbəndiyarova" }
     ```
 
 <br />
