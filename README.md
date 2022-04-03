@@ -10,7 +10,7 @@
 
 #
 
-1. #### What is the difference between == and === operators?
+1. ### What is the difference between == and === operators?
 
    "==" operatoruna bərabərlik operatoru deyilir. Dəyişənlərin data tiplərini nəzərə almadan iki dəyişəni müqayisə etmək üçün istifadə edilir və boolean dəyər (true və ya false) qaytarır. Əgər dəyişənlərin dəyəri eynidirsə true qaytarır, deyilsə false qaytarır. <br />
    "===" operatoruna isə qatı bərabərlik operatoru deyilir və "==" operatorundan fərqli olaraq iki dəyişənin həm dəyərini müqayisə edir, həm də data tiplərini yoxlayır. Əgər hər ikisi də eynidirsə true qaytarır, deyilsə false qaytarır.
@@ -54,7 +54,7 @@
 
 3. ### What is undefined property?
 
-   Undefined dəyişənin olduğunu, lakin dəyər təyin edilmədiyini bildirən primitiv data növüdür və typeof operatorundan istifadə edəndə undefined qaytarır. <br />
+   Undefined dəyişənin olduğunu, lakin dəyər təyin edilmədiyini bildirən primitiv data növüdür və typeof operatorundan istifadə edəndə undefined qaytarır.
 
    _Nümunə:_
 
@@ -68,7 +68,7 @@
 
 4. ### What is isNaN?
 
-   JavaScriptdə isNaN() metodu dəyərin ədəd olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot-**a**-**N**umber) olarsa (yəni ədəd olmazsa), bu zaman true qaytarır, əks halda false qaytarır. <br />
+   JavaScriptdə isNaN() metodu dəyərin ədəd olub-olmamasını yoxlayır və boolean dəyər (true və ya false) qaytarır. Əgər dəyər NaN (**N**ot-**a**-**N**umber) olarsa (yəni ədəd olmazsa), bu zaman true qaytarır, əks halda false qaytarır.
 
    _Nümunə:_
 
@@ -92,7 +92,7 @@
 
 5. ### **What is the typeof operator?**
 
-   JavaScriptdə typeof operatorundan dəyişənlərin data tipini tapmaq üçün istifadə olunur. <br />
+   JavaScriptdə typeof operatorundan dəyişənlərin data tipini tapmaq üçün istifadə olunur.
 
    _Nümunə:_
 
@@ -134,13 +134,14 @@
 <br />
 
 6. ### Who created JavaScript?
+
    JavaScript ilk dəfə **1995**-ci ildə **Brendan Eich** tərəfindən **Netscape Navigator 2.0** ilə birlikdə buraxılmışdır. İlk olaraq **Mocha** adı verildi, daha sonra **LiveScript** və ən sonda isə **JavaScript** adını aldı.
 
 <br />
 
 7. ### What are primitive data types?
 
-   JavaScriptdə primitiv data növləri metodları və xüsusiyyətləri (properties) olmayan datadır. 7 primitiv data növü var. <br />
+   JavaScriptdə primitiv data növləri metodları və xüsusiyyətləri (properties) olmayan datadır. 7 primitiv data növü var.
 
 - number
 - bigint
@@ -154,7 +155,7 @@
 
 8. ### What is NaN property?
 
-   NaN "**N**ot-**a**-**N**umber" (ədəd olmayan) dəyərləri təmsil edən qlobal xüsusiyyətdir. NaN xüsusiyyətindən daxil edilmiş nömrələrin etibarlı olub-olmamasını yoxlamaq üçün istifadə edilə bilər. <br />
+   NaN "**N**ot-**a**-**N**umber" (ədəd olmayan) dəyərləri təmsil edən qlobal xüsusiyyətdir. NaN xüsusiyyətindən daxil edilmiş nömrələrin etibarlı olub-olmamasını yoxlamaq üçün istifadə edilə bilər.
 
    _Nümunə:_
 
@@ -361,7 +362,7 @@
 
     Bunu JavaScript string `startsWith()` metodu ilə etmək olar. `StartsWith()` metodu stringin təyin edilmiş string ilə başlayıb-başlamadığını müəyyən edir və boolean (true və ya false) dəyər qaytarır. Əgər string təyin edilmiş string ilə başlayırsa true qaytarır, əks halda false qaytarır.
 
-    _Sintaksisi bu şəkildədir:_ <br />
+    _Sintaksisi bu şəkildədir:_
 
     ```
     string.startsWith(axtarılan string)
@@ -371,28 +372,29 @@
     _Nümunə:_
 
     ```js
-    let text = "Samir müəllim mükəmməldir!";
-    let result = text.startsWith("Samir"); // və ya ("Samir", 0)
+    const text = "Mənim anam mükəmməldir!";
+    const result = text.startsWith("Mənim"); // və ya ("Mənim", 0)
     console.log(result); // true qaytaracaq
     ```
 
     ```js
-    let text = "Samir müəllim mükəmməldir!";
-    let result = text.startsWith("mir", 2);
+    let text = "Mənim anam mükəmməldir!";
+    let result = text.startsWith("ən", 1);
     console.log(result); // true qaytaracaq
     ```
 
-    Bu metod böyük, kiçik hərflərə qarşı həssasdır. Başdakı "s" hərfini kiçik yazdığım üçün false qaytaracaq.
+    Bu metod böyük, kiçik hərflərə qarşı həssasdır. Başdakı "m" hərfini kiçik yazdığım üçün false qaytaracaq.
 
     ```js
-    let text = "Samir müəllim mükəmməldir!";
-    let result = text.startsWith("samir");
+    let text = "Mənim anam mükəmməldir!";
+    let result = text.startsWith("mənim");
     console.log(result); // false qaytaracaq
     ```
 
 <br />
 
 23. ### What is a polyfill?
+
     Polyfill yazdığımız kodları dəstəkləməyən köhnə brauzerlərdə müasir funksionallığı təmin üçün istifadə edilən kod parçasıdır.
 
 <br />
@@ -622,12 +624,12 @@
     let copy1 = text.repeat(-1);
     let copy2 = text.repeat(0);
     let copy3 = text.repeat(1);
-    let copy4 = text.repeat(4);
+    let copy4 = text.repeat(5);
     let copy5 = text.repeat(2.5);
     console.log(copy1); // RangeError: Invalid count value
     console.log(copy2); // '' (boş)
     console.log(copy3); // Nəzrin
-    console.log(copy4); // Nəzrin Nəzrin Nəzrin Nəzrin
+    console.log(copy4); // Nəzrin Nəzrin Nəzrin Nəzrin Nəzrin
     console.log(copy5); // Nəzrin Nəzrin (ədəd tam ədədə çevriləcək)
     ```
 
@@ -680,11 +682,11 @@
     _Nümunə:_
 
     ```js
-    let eded = 5.62525225;
-    console.log(eded.toFixed());
+    const eded = 5.22255225;
+    console.log(eded.toFixed()); // 5
     console.log(eded.toFixed(0)); // 5
-    console.log(eded.toFixed(2)); // 5.63
-    console.log(eded.toFixed(5)); // 5.62525
+    console.log(eded.toFixed(2)); // 5.22
+    console.log(eded.toFixed(5)); // 5.22255
     console.log(typeof eded.toFixed(5)); // string
     ```
 
