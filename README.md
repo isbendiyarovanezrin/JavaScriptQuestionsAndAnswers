@@ -323,7 +323,7 @@
     _Birinci yol:_
 
     ```html
-    <button onclick="myFunction()">Go website</button>
+    <button type="button" onclick="myFunction()">Go website</button>
     ```
 
     ```js
@@ -335,7 +335,7 @@
     _İkinci yol:_
 
     ```html
-    <button onclick="myFunction()">Go website</button>
+    <button type="button" onclick="myFunction()">Go website</button>
     ```
 
     ```js
@@ -555,7 +555,7 @@
     Bu zaman buttona klik edəndə aşağıdakı çap dialoq qutusu açılacaq.
 
     ```html
-    <button onclick="window.print()">Səhifəni çap et</button>
+    <button type="button" onclick="window.print()">Səhifəni çap et</button>
     ```
 
     <img width="85%" src="https://i.postimg.cc/9QTT4N8Q/print.png">
