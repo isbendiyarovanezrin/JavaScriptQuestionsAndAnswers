@@ -5,7 +5,7 @@
 
 #### “The strength of JavaScript is that you can do anything. The weakness is that you will.”
 
-<p align="end"><em>- Reg Braithwaite</em></p>
+<p align="end"><em>━ Reg Braithwaite</em></p>
 </div>
 
 #
@@ -990,3 +990,5 @@
     ```
 
     #### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/JavaScriptQuestionsAndAnswers#readme)
+
+    ### Sualları [bu](https://github.com/sudheerj/javascript-interview-questions "Click me! 🙃") repodan götürmüşəm.
