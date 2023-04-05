@@ -958,9 +958,9 @@
 
 49. ### How do you define multiline strings?
 
-    3 yolu var. 
+    3 yolu var.
     
-    1. Template literaldan istifadə etmək. Ən sadə yolu budur.
+    1-ci yol: template literaldan istifadə etmək. Ən sadə yolu budur.
 
     _Nümunə:_
 
@@ -979,8 +979,8 @@
     ```
 
     Template literalın yerinə tək və ya cüt dırnaqdan istifadə etsəniz, "+" və ya "&#92;" operatorundan istifadə etməlisiniz.
-    
-    2. "+" operatorundan istifadə etmək.
+
+    2-ci yol: "+" operatorundan istifadə etmək.
     
     ```js
     let text = 'Bura\n' +
@@ -996,7 +996,7 @@
     // yazmayacam.
     ```
     
-    3."&#92;" operatorundan istifadə etmək.
+    3-cü yol: "&#92;" operatorundan istifadə etmək.
 
     Bu zaman hər sətrin sonuna "&#92;" simvolunu yazmaq lazımdır. Əgər "&#92;" simvolundan sonra boşluq qoyulsa, görünüşdə heç bir dəyişiklik olmayacaq, amma belə bir `SyntaxError: Invalid or unexpected token` error verəcək.
 
