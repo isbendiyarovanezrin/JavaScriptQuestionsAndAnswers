@@ -958,17 +958,59 @@
 
 49. ### How do you define multiline strings?
 
-    "&#92;" simvolundan istifadə edərək çoxsətirli stringləri təyin etmək olar. Bu zaman hər sətrin sonuna "&#92;" simvolunu yazmaq lazımdır. Əgər "&#92;" simvolundan sonra boşluq qoyulsa görünüşdə heç bir dəyişiklik olmayacaq, amma belə bir `SyntaxError: Invalid or unexpected token` error verəcək.
+    3 yolu var. Birinci yol template literaldan istifadə etməkdir. Ən sadə yolu budur.
 
     _Nümunə:_
 
     ```js
-    let text =
-      "Bura \
-    heç nə \
-    yazmayacam.";
+    let text = `Bura
+    heç nə
+    yazmayacam.`;
 
-    console.log(text); // Bura heç nə yazmayacam.
+    console.log(text);
+
+    // Nəticəsi:
+
+    // Bura
+    // heç nə
+    // yazmayacam.
+    ```
+
+    Template literalın yerinə tək və ya cüt dırnaqdan istifadə etsəniz, "+" və ya "&#92;" operatorundan istifadə etməlisiniz.
+
+    İkinci yol budur: "+" simvolundan istifadə etmək.
+    
+    ```js
+    let text = 'Bura\n' +
+      'heç nə\n' +
+      'yazmayacam.';
+
+    console.log(text);
+
+    // Nəticəsi:
+    
+    // Bura
+    // heç nə
+    // yazmayacam.
+    ```
+
+    Üçüncü yol budur: "&#92;" simvolundan istifadə etmək.
+    Bu zaman hər sətrin sonuna "&#92;" simvolunu yazmaq lazımdır. Əgər "&#92;" simvolundan sonra boşluq qoyulsa görünüşdə heç bir dəyişiklik olmayacaq, amma belə bir `SyntaxError: Invalid or unexpected token` error verəcək.
+
+    _Nümunə:_
+
+    ```js
+    let text = 'Bura\n \
+    heç nə\n \
+    yazmayacam.';
+
+    console.log(text);
+
+    // Nəticəsi:
+    
+    // Bura
+    // heç nə
+    // yazmayacam.
     ```
 
 <br />
